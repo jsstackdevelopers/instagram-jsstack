@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap");
+:root {
+  --gradient-border: linear-gradient(
+    45deg,
+    rgb(255, 230, 0),
+    rgb(255, 0, 128) 80%
+  );
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Hind Siliguri", sans-serif;
+}
+body {
+  position: relative;
+  background: rgb(242, 246, 255);
+}
+a {
+  text-decoration: none !important;
+}
+
+/* @keyFrames */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes identifier {
+  0% {
+    backdrop-filter: blur(0px) saturate(100%);
+  }
+  100% {
+    backdrop-filter: blur(20px) saturate(120%);
+  }
+}
